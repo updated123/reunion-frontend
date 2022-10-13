@@ -1,0 +1,24 @@
+.main-content {
+    padding-top: 2rem;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.prop {
+    transition: all .5s ease;
+}
+.prop:hover {
+    transform: scale(1.1);
+}
+
+.card-contents {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contents{
+    font-weight: bold;
+}
